@@ -1,0 +1,35 @@
+<svg viewBox="0 0 200 300" xmlns="http://www.w3.org/2000/svg">
+    <!-- VDD -->
+    <text x="85" y="30" font-family="monospace" font-size="18">VDD</text>
+    <line x1="100" y1="40" x2="100" y2="70" stroke="black" stroke-width="2"/>
+    
+    <!-- Resistor - made smaller with more zigzags -->
+    <path d="M 100 70 L 100 75 L 95 77 L 105 81 L 95 85 L 105 89 L 95 93 L 105 97 L 95 101 L 105 105 L 95 109 L 105 113 L 100 115" 
+          stroke="black" 
+          stroke-width="2" 
+          fill="none"/>
+    <text x="115" y="98" font-family="monospace" font-size="18">R</text>
+    
+    <!-- Output Voltage Label -->
+    <text x="140" y="182" font-family="monospace" font-size="18">Vf</text>
+    <line x1="100" y1="180" x2="140" y2="180" stroke="black" stroke-width="2"/>
+    
+    <!-- NMOS Transistor -->
+    <line x1="100" y1="115" x2="100" y2="200" stroke="black" stroke-width="2"/>
+    <line x1="100" y1="200" x2="100" y2="240" stroke="black" stroke-width="2"/>
+    
+    <!-- Extended Gate line (Vx) -->
+    <line x1="50" y1="200" x2="90" y2="200" stroke="black" stroke-width="2"/>
+    
+    <!-- Gate symbol -->
+    <line x1="90" y1="190" x2="90" y2="210" stroke="black" stroke-width="2"/>
+    
+    <!-- Input Voltage Label -->
+    <text x="28" y="202" font-family="monospace" font-size="18">Vx</text>
+    
+    <!-- Ground Symbol -->
+    <path d="M 80 240 L 120 240 M 85 248 L 115 248 M 90 256 L 110 256" 
+          stroke="black" 
+          stroke-width="2" 
+          fill="none"/>
+</svg>
